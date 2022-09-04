@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.header {
+    margin: 10px;
+}
+
+.logo img {
+    width: 120px;
+    display: block;
+    border: 1px dashed black;
+    padding: 2px;
+    margin: auto;
+}
+
+.nav-left,
+.nav-right {
+    background-color: grey;
+}
+
+.nav-left ul,
+.nav-right ul {
+    list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 560px) {
+    .header {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        margin-top: 1%;
+        justify-content: space-between;
+    }
+    .nav-left ul {
+        display: flex;
+    }
+    .nav-right ul {
+        display: flex;
+    }
+    .nav-left,
+    .nav-right {
+        background-color: none;
+    }
+    .nav-left a,
+    .nav-right a {
+        background-color: white;
+    }
+}
+
+
+/* Main Content */
+
+.main {
+    margin-top: 50px;
+}
+
+.main-left img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.main-right {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Tampilan Desktop */
+
+@media (min-width: 560px) {
+    .main {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        margin-top: 15%;
+        justify-content: center;
+    }
+    .main-left img {
+        width: 600px;
+        transform: rotate(340deg);
+    }
+    .main-right {
+        margin: auto;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .main-right h2 {
+        margin-bottom: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+
+/* Produk */
+
+.display {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.image img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.produk-content {
+    text-align: center;
+    display: block;
+    margin: 30px;
+}
+
+.deskripsi p {
+    font-size: 15px;
+}
+
+@media (min-width: 560px) {
+    .display {
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .produk {
+        width: 960px;
+        display: flex;
+    }
+    .produk-content {
+        height: 300px;
+        margin-top: 5%;
+    }
+    .image {
+        width: 280px;
+        height: 150px;
+    }
+    .image img {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+/* Informasi */
+
+.info {
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-content {
+    height: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 50px;
+    display: block;
+    margin-right: 5px;
+}
+
+.info-isi h2 {
+    font-size: 15px;
+}
+
+.info-isi p {
+    font-size: 10px;
+}
+
+
+/* Tampilan */
+
+@media (min-width:560px) {
+    .info {
+        margin: auto;
+        width: 960px;
+        justify-content: space-between;
+    }
+}

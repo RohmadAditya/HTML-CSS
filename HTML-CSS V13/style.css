@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    background-color: brown;
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: column; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+.col {
+    width: 150px;
+    height: 150px;
+}
+
+.satu {
+    background-color: teal;
+}
+
+.dua {
+    background-color: tomato;
+}
+
+.tiga {
+    background-color: turquoise;
+}
+
+.empat {
+    background-color: yellow;
+}
+
+
+/* .col-1 {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.col-2 {
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+} */
